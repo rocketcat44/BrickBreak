@@ -53,7 +53,7 @@ public class Paddle {
 //  Post-condition: increases/decreases the speed of the paddle
 //
 	void addVelocity(int x){
-		setVelocity(getVelocity()+x);
+		setVelocity(x);
 	}
 
 	//
